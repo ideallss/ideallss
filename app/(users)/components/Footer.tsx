@@ -1,0 +1,154 @@
+import Link from 'next/link';
+import { Mail, Phone, MapPin, MessageCircle } from 'lucide-react';
+import Image from 'next/image';
+
+export default function Footer() {
+  return (
+    <footer className="bg-secondary border-t border-[#9588b4ff]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {/* Company Info */}
+          <div className="col-span-1 md:col-span-2">
+           
+
+            <div className="flex items-center space-x-3 mb-4">
+              <div className="">
+                <Image
+                  src="/IDEALLS LOGO.png"
+                  alt="Ideall Solutionz Logo"
+                  width={90}
+                  height={90}
+                  className="object-contain"
+                  priority
+                />
+              </div>
+
+              <div>
+                <div className="text-primary font-bold text-xl">
+                  Ideall Solutionz Singapore Pte Ltd
+                </div>
+                <div className="text-gray-900">
+                  Global Procurement Solutions
+                </div>
+              </div>
+            </div>
+
+            <p className="text-primary mb-4 max-w-md">
+              Ideall Solutionz Singapore Pte Ltd specializes in international trade and procurement solutions for premium interior products.
+            </p>
+            <div className="space-y-2">
+              <div className="flex items-center space-x-2 text-primary">
+                <MapPin size={16} />
+                <a
+                  href="https://www.google.com/maps/place/Ideall+Solutionz+Singapore+Pte.+Ltd./@1.326158,103.897907,16z/data=!4m6!3m5!1s0x31da17f61790530f:0xed61a573020f2cdd!8m2!3d1.3261581!4d103.8979072!16s%2Fg%2F1ptwq450x?hl=en&entry=ttu&g_ep=EgoyMDI2MDEyMC4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline transition"
+                >
+                  Ideall Solutionz Singapore Pte Ltd
+                </a>
+              </div>
+
+              <a
+                href="https://wa.me/6563254142"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-primary hover:underline"
+              >
+                <Phone size={16} />
+                <span>+65 63254142</span>
+              </a>
+
+              <a
+                href="mailto:sales@ideallss.com"
+                className="flex items-center space-x-2 text-primary hover:underline hover:opacity-80 transition"
+              >
+                <Mail size={16} />
+                <span>sales@ideallss.com</span>
+              </a>
+
+              {/* WhatsApp Node */}
+              <a
+                href="https://wa.me/6591559097"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-primary hover:underline"
+              >
+                <MessageCircle size={16} />
+                <span>Chat on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h3 className="font-semibold text-primary mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/" className="text-primary hover:text-primary transition-colors duration-200">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/our-story" className="text-primary hover:text-primary transition-colors duration-200">
+                  Our Story
+                </Link>
+              </li>
+              {/* <li>
+                <Link href="/product-categories" className="text-primary hover:text-primary transition-colors duration-200">
+                  Product Categories
+                </Link>
+              </li> */}
+              <li>
+                <Link href="/career" className="text-primary hover:text-primary transition-colors duration-200">
+                  Career With Us
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-primary hover:text-primary transition-colors duration-200">
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h3 className="font-semibold text-primary mb-4">Our Services</h3>
+            <ul className="space-y-2 text-primary">
+
+              <li>
+                <Link href="product-categories/floorings" className="text-primary hover:text-primary transition-colors duration-200">
+                  Floorings
+                </Link>
+              </li>
+              <li>
+                <Link href="product-categories/furniture" className="text-primary hover:text-primary transition-colors duration-200">
+                  Furniture
+                </Link>
+              </li>
+              <li>
+                <Link href="product-categories/fabrics" className="text-primary hover:text-primary transition-colors duration-200">
+                  Fabrics
+                </Link>
+              </li>
+              <li>
+                <Link href="product-categories/walls" className="text-primary hover:text-primary transition-colors duration-200">
+                  Fashion Walls
+                </Link>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+
+        <div className="border-t border-primary-900 mt-8 pt-8 text-center">
+          <p className="text-primary">
+            © 2002-2025 Ideall Solutionz Singapore Pte Ltd. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}

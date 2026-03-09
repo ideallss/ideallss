@@ -15,7 +15,6 @@ function Icon({
     if (!IconComponent) {
         return <HelpCircle size={size} color="gray" strokeWidth={strokeWidth} className={className} {...props} />;
     }
-
     return <IconComponent
         size={size}
         color={color}

@@ -10,7 +10,7 @@ export default function Furniture() {
       description: 'Specialized furniture designed for healthcare environments, prioritizing hygiene, patient comfort, and staff efficiency.',
       features: ['Antimicrobial surfaces', 'Easy to clean', 'Patient safety', 'Ergonomic staff stations'],
       applications: ['Patient rooms', 'Waiting areas', 'Nurse stations', 'Consultation rooms'],
-      imageUrl: '/assets/images/Hospital-cover.jpg',
+      imageUrl: '/assets/images/Hospitality_cover.jpg',
       href: '/product-categories/furniture/hospital',
     },
     {
@@ -18,7 +18,7 @@ export default function Furniture() {
       description: 'Durable and ergonomic learning solutions designed to enhance student engagement and withstand heavy daily use.',
       features: ['Heavy-duty construction', 'Ergonomic seating', 'Flexible layouts', 'Safety compliant'],
       applications: ['Classrooms', 'Libraries', 'Cafeterias', 'Administrative offices'],
-      imageUrl: '/assets/images/School-cover.jpg',
+      imageUrl: '/assets/images/school-cover.jpg',
       href: '/product-categories/furniture/school',
     },
   ];

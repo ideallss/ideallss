@@ -18,7 +18,7 @@ export default function Furniture() {
       description: 'Weather-resistant and stylish furniture built to withstand the elements while providing comfort outside.',
       features: ['Weatherproof materials', 'UV resistant', 'Easy maintenance', 'Rust resistant'],
       applications: ['Patios', 'Gardens', 'Poolside', 'Balconies'],
-      imageUrl: '/assets/images/Outdoor-Living-cover.jpg',
+      imageUrl: '/assets/images/outdoor-Living-cover.jpg',
       href: '/product-categories/furniture/outdoor-living',
     },
   ];

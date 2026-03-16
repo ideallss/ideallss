@@ -11,35 +11,35 @@ export default function Furniture() {
       {
         name: 'Residential Collections',
         imageUrl:
-          'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=600&h=400&fit=crop',
+          '/assets/images/Residential_cover.jpg',
         description:
           'Stylish and comfortable furniture tailored for modern homes.',
       },
       {
         name: 'Commercial Solutions',
         imageUrl:
-          'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop',
+          '/assets/images/Commercial_cover.jpg',
         description:
           'Durable and functional furniture for offices and workspaces.',
       },
       {
         name: 'Custom Manufacturing',
         imageUrl:
-          'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=600&h=400&fit=crop',
+          '/assets/images/Custom_cover.jpg',
         description:
           'Bespoke furniture solutions crafted to meet unique design requirements.',
       },
       {
         name: 'Office Furniture Systems',
         imageUrl:
-          'https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=600&h=400&fit=crop',
+          '/assets/images/Office_Furniture_cover.jpg',
         description:
           'Ergonomic and modular systems to enhance workplace productivity.',
       },
       {
         name: 'Hospitality Furnishings',
         imageUrl:
-          'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=600&h=400&fit=crop',
+          '/assets/images/Hospitality_cover.jpg',
         description:
           'Elegant and durable furniture crafted for hotels, restaurants, and resorts.',
       },

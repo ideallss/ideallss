@@ -9,17 +9,17 @@ export default function Floorings() {
     productCategories: [
       {
         name: 'Carpet & Carpet Tiles',
-        imageUrl: '/assets/products/floorings/Carpet&CarpetTiles/Carpet & Carpet Tiles.jpg',
+        imageUrl: '/assets/products/floorings/Carpet&CarpetTiles/Carpet & Carpet Tiles.png',
         description: 'Luxurious and durable carpets for every space.',
       },
       {
         name: 'Artificial and Sports Grass',
-        imageUrl: '/assets/products/floorings/ArtificialandSportsGrass/Artificial and Sports Grass.jpeg',
+        imageUrl: '/assets/products/floorings/ArtificialandSportsGrass/Artificial and Sports Grass.jpg',
         description: 'Realistic, low-maintenance synthetic turf.',
       },
       {
         name: 'Vinyl Floorings & Laminates',
-        imageUrl: '/assets/products/floorings/VinylFloorings&Laminates/Vinyl Floorings & Laminates.avif',
+        imageUrl: '/assets/products/floorings/VinylFloorings&Laminates/Vinyl Floorings & Laminates.png',
         description: 'Waterproof, stylish, and easy to install.',
       },
       {

@@ -11,7 +11,7 @@ export default function Furniture() {
       features: ['Premium upholstery', 'Ergonomic design', 'Durable frames', 'Modern styles'],
       applications: ['Living Rooms', 'Bedrooms', 'Home Offices', 'Dining Areas'],
       imageUrl: '/assets/images/Indoor-Living-cover.jpg',
-      href: '/product-categories/furniture/indoor-living',
+      href: '/product-categories/furniture/residential-collections/indoor-living',
     },
     {
       title: 'Outdoor Living',
@@ -19,7 +19,7 @@ export default function Furniture() {
       features: ['Weatherproof materials', 'UV resistant', 'Easy maintenance', 'Rust resistant'],
       applications: ['Patios', 'Gardens', 'Poolside', 'Balconies'],
       imageUrl: '/assets/images/outdoor-Living-cover.jpg',
-      href: '/product-categories/furniture/outdoor-living',
+      href: '/product-categories/furniture/residential-collections/outdoor-living',
     },
   ];
 

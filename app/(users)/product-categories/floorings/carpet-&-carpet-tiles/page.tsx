@@ -29,7 +29,7 @@ export default function Floorings() {
       imageUrl: '/assets/products/floorings/woolblend/Wool_Blend_Tiles.png',
       href: '/product-categories/floorings/carpet-&-carpet-tiles/wool-blend',
     }
-     
+
   ];
 
   return (
@@ -70,7 +70,7 @@ export default function Floorings() {
           {productTypes.map((item, idx) => (
             <div
               key={idx}
-              className="group bg-white border-secondary-600 rounded-2xl shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-2 overflow-hidden"
+              className="group bg-white border-secondary-600 rounded-2xl shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden"
             >
               {/* Image */}
               <div className="relative w-full h-64 overflow-hidden">

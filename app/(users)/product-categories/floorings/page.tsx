@@ -27,6 +27,16 @@ export default function Floorings() {
         imageUrl: '/assets/products/floorings/Engineered&SolidWood/Engineered & Solid Wood.jpg',
         description: 'Timeless natural wood with modern resilience.',
       },
+      {
+        name: 'Decking Tiles',
+        imageUrl: '/assets/products/floorings/DeckingTiles/Decking Tiles.jpg',
+        description: 'Interlocking outdoor tiles for patios, decks, and balconies.',
+      },
+      {
+        name: 'Raised Floor',
+        imageUrl: '/assets/products/floorings/RaisedFloor/Raised Floor.jpg',
+        description: 'Elevated flooring systems for data centers and commercial spaces.',
+      },
     ],
     qualityAssurance: [
       'Factory inspection protocols',
@@ -34,7 +44,7 @@ export default function Floorings() {
       'Installation compatibility verification',
       'Environmental compliance certification',
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=600&h=400&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=600&h=400&fit=crop  ',
     overlaySubtitle: 'Our Global Sourcing Network connects businesses to premium suppliers worldwide. We specialize in sourcing high-quality products across diverse industries. Through trusted partnerships we ensure reliability and consistency in supply. Our team rigorously evaluates vendors to maintain strict quality standards. We streamline logistics to provide timely delivery and reduce costs. Advanced technology helps us track products from production to delivery.',
   };
 

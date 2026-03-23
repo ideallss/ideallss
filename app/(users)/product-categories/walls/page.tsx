@@ -11,7 +11,7 @@ export default function FashionWalls() {
       {
         name: '3D Wall Panels',
         imageUrl:
-          '/assets/products/walls/3d Wall Panels.jpg',
+          '/assets/products/walls/ThreeD Wall Panels.jpg',
         description: 'Dynamic textures and patterns to add depth and character to walls.',
       },
       {
